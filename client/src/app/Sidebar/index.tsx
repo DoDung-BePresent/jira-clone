@@ -1,14 +1,16 @@
-import { ReactNode } from "react";
+import { AddSquare, MessageQuestion, SearchNormal1 } from "iconsax-react";
+import ColComponent from "../../components/ColComponent";
+import RowComponent from "../../components/RowComponent";
 import { globalColors } from "../../constants/globalColors";
+import Logo from "../../assets/jira-icon.png";
 
 interface Props {
   width?: number;
   height?: number;
-  children: ReactNode;
 }
 
 const index = (props: Props) => {
-  const { width, height, children } = props;
+  const { width, height } = props;
   return (
     <div
       className="sidebar"
@@ -19,7 +21,26 @@ const index = (props: Props) => {
         transition: "width 0.6s ease",
       }}
     >
-      {children}
+      <ColComponent>
+        <RowComponent>
+          <img
+            src={Logo}
+            style={{
+              width: 30,
+              height: 30,
+            }}
+          />
+        </RowComponent>
+        <RowComponent>
+          <SearchNormal1 color={globalColors.white} />
+        </RowComponent>
+        <RowComponent>
+          <AddSquare color={globalColors.white} />
+        </RowComponent>
+        <RowComponent flex={1} align="end">
+          <MessageQuestion color={globalColors.white} />
+        </RowComponent>
+      </ColComponent>
     </div>
   );
 };
