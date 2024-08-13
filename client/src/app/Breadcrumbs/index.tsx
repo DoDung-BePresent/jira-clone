@@ -3,7 +3,7 @@ import TextComponent from "../../components/TextComponent";
 
 const index = () => {
   return (
-    <RowComponent gap={10}>
+    <RowComponent padding="0" gap={10}>
       <TextComponent fontWeight={500} text="Projects" />
       <TextComponent fontWeight={500} text="/" />
       <TextComponent fontWeight={500} text="Singularity 1.0" />

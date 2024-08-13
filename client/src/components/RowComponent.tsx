@@ -20,7 +20,7 @@ const RowComponent = (props: Props) => {
         width: "100%",
         height: "fit-content",
         margin: margin ?? "10px 0px",
-        padding: padding ?? "0px 5px",
+        padding: padding,
         display: "flex",
         alignItems: align ?? "center",
         justifyContent: justify ?? "center",

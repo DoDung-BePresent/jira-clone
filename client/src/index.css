@@ -11,3 +11,12 @@
 .sidebar:hover {
   width: 200px !important;
 }
+
+/* Input */
+.input:hover {
+  background-color: #f0f0f0 !important;
+}
+
+.input:focus-within {
+  border: 2px solid rgb(118, 164, 234) !important;
+}
