@@ -10,7 +10,7 @@ const InputComponent = () => {
         alignItems: "center",
         gap: 5,
         backgroundColor: globalColors.bgColor,
-        padding: "8px 10px",
+        padding: "7px 10px",
         borderRadius: 5,
         border: "2px solid #c4c4c4",
       }}

@@ -11,7 +11,8 @@ interface Props {
 }
 
 const RowComponent = (props: Props) => {
-  const { children, justify, margin, padding, flex, align, gap } = props;
+  const { children, justify, margin, padding, flex, align, gap } =
+    props;
   return (
     <div
       style={{

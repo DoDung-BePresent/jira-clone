@@ -21,7 +21,7 @@ const index = (props: Props) => {
         transition: "width 0.6s ease",
       }}
     >
-      <ColComponent>
+      <ColComponent height="100vh">
         <RowComponent>
           <img
             src={Logo}
