@@ -32,6 +32,12 @@
   background-color: #f4f5f7 !important;
 }
 
+/* Menu label */
 .menu-label .label:hover {
   background-color: rgb(235, 236, 240) !important;
+}
+
+/* not-implement */
+.menu-label:hover .not-implemented {
+  opacity: 1 !important;
 }

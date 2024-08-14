@@ -13,6 +13,7 @@ import {
   Setting2,
 } from "iconsax-react";
 import MenuFilters from "./MenuFilters";
+import NotImplement from "./NotImplement";
 
 const index = () => {
   return (
@@ -21,7 +22,7 @@ const index = () => {
       padding="20px"
       bgColor={globalColors.bgColor}
       gap={10}
-      styles={{ borderRight: "1px solid #cccccc" }}
+      styles={{ borderRight: "1px solid #cccccc", width: "235px" }}
     >
       <RowComponent>
         <img
@@ -57,23 +58,23 @@ const index = () => {
       <ColComponent padding="0px">
         <MenuFilters>
           <Car size={24} />
-          <TextComponent text="Releases" />
+          <NotImplement text="Release" />
         </MenuFilters>
         <MenuFilters>
           <FilterSquare size={24} />
-          <TextComponent text="Issues and filters" />
+          <NotImplement text="Issues and filters" />
         </MenuFilters>
         <MenuFilters>
           <Notepad2 size={24} />
-          <TextComponent text="Pages" />
+          <NotImplement text="Pages" />
         </MenuFilters>
         <MenuFilters>
           <Diagram size={24} />
-          <TextComponent text="Reports" />
+          <NotImplement text="Reports" />
         </MenuFilters>
         <MenuFilters>
           <Box size={24} />
-          <TextComponent text="Issues and filters" />
+          <NotImplement text="Issues and filters" />
         </MenuFilters>
       </ColComponent>
     </ColComponent>
