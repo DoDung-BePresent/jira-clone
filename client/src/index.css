@@ -20,3 +20,9 @@
 .input:focus-within {
   border: 2px solid rgb(118, 164, 234) !important;
 }
+
+/* Avatar */
+.avatar:hover {
+  transform: translateY(-10px) !important;
+  transition: transform 0.4s ease; /* Thêm transition để có hiệu ứng mượt mà */
+}
