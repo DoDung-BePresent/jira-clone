@@ -1,6 +1,7 @@
 import Sidebar from "../app/Sidebar";
 import Breadcrumbs from "../app/Breadcrumbs";
 import AvatarList from "../app/AvatarList";
+import Filters from "../app/Filters";
 import TitleComponent from "../components/TitleComponent";
 import RowComponent from "../components/RowComponent";
 import InputComponent from "../components/InputComponent";
@@ -23,6 +24,7 @@ const Board = () => {
         <RowComponent justify="start" margin="20px auto">
           <InputComponent />
           <AvatarList />
+          <Filters />
         </RowComponent>
       </div>
     </div>

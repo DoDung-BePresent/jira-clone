@@ -26,3 +26,8 @@
   transform: translateY(-10px) !important;
   transition: transform 0.4s ease; /* Thêm transition để có hiệu ứng mượt mà */
 }
+
+/* Label */
+.label:hover {
+  background-color: #f4f5f7 !important;
+}

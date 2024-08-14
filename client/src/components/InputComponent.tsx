@@ -12,7 +12,7 @@ const InputComponent = () => {
         backgroundColor: globalColors.bgColor,
         padding: "8px 10px",
         borderRadius: 5,
-        border: "1px solid #c4c4c4",
+        border: "2px solid #c4c4c4",
       }}
     >
       <SearchNormal1 size={15} color={"#000"} />
